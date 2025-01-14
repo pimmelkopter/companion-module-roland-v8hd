@@ -1,4 +1,5 @@
 // presets.ts
+import { channel } from 'diagnostics_channel'
 import type { ModuleInstance } from './main.js'
 import { combineRgb } from '@companion-module/base'
 
@@ -89,6 +90,32 @@ export function UpdatePresets(self: ModuleInstance): void {
                         {
                             actionId: 'set_program',
                             options: {
+                                program: 1,
+                            },
+                        },
+                    ],
+					up: [],
+                },
+            ],
+            feedbacks: [],
+        },
+        set_preset_1: {
+            type: 'button',
+            category: 'Roland V-8HD',
+            name: `Call Preset 1`,
+            style: {
+                text: `Preset 1`,
+                size: 'auto',
+                color: combineRgb(255, 255, 255),
+                bgcolor: combineRgb(0, 0, 0),
+            },
+            steps: [
+                {
+                    down: [
+                        {
+                            actionId: 'program',
+                            options: {
+                                channel: 1,
                                 program: 1,
                             },
                         },
