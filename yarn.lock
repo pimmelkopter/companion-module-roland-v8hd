@@ -22,20 +22,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-module/tools@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@companion-module/tools@npm:2.1.0"
+"@companion-module/tools@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "@companion-module/tools@npm:2.1.1"
   dependencies:
-    "@eslint/js": "npm:^9.10.0"
+    "@eslint/js": "npm:^9.17.0"
     eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-n: "npm:^17.10.2"
+    eslint-plugin-n: "npm:^17.15.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     find-up: "npm:^7.0.0"
     parse-author: "npm:^2.0.0"
     tar: "npm:^7.4.3"
-    webpack: "npm:^5.94.0"
+    webpack: "npm:^5.97.1"
     webpack-cli: "npm:^5.1.4"
-    zx: "npm:^8.1.6"
+    zx: "npm:^8.2.4"
   peerDependencies:
     "@companion-module/base": ^1.11.0
     eslint: ^9.0.0
@@ -52,7 +52,7 @@ __metadata:
     companion-generate-manifest: scripts/generate-manifest.js
     companion-module-build: scripts/build.js
     companion-module-check: scripts/check.js
-  checksum: 10c0/a0ea5e762a4ce66088446c8feba10ddd92c3c5cb810c9709c70a60ec67ecf254b7814c3ca4bacc228fba7181018dd84c5d3343203cea7eaa0b475d94dd67e180
+  checksum: 10c0/d4b5f76f46315fa8bedafc63aa7011986374bd6f96faab2e9726fc8ced8e98835c4b5b6ee5f2e940e46d9a803082b0948bcd84e5c1e5f7eb92f89d1cb155e98a
   languageName: node
   linkType: hard
 
@@ -123,10 +123,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^9.10.0":
-  version: 9.15.0
-  resolution: "@eslint/js@npm:9.15.0"
-  checksum: 10c0/56552966ab1aa95332f70d0e006db5746b511c5f8b5e0c6a9b2d6764ff6d964e0b2622731877cbc4e3f0e74c5b39191290d5f48147be19175292575130d499ab
+"@eslint/js@npm:^9.17.0":
+  version: 9.18.0
+  resolution: "@eslint/js@npm:9.18.0"
+  checksum: 10c0/3938344c5ac7feef4b73fcb30f3c3e753570cea74c24904bb5d07e9c42fcd34fcbc40f545b081356a299e11f360c9c274b348c05fb0113fc3d492e5175eee140
   languageName: node
   linkType: hard
 
@@ -511,7 +511,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/ast@npm:1.14.1, @webassemblyjs/ast@npm:^1.12.1":
+"@webassemblyjs/ast@npm:1.14.1, @webassemblyjs/ast@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/ast@npm:1.14.1"
   dependencies:
@@ -597,7 +597,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/wasm-edit@npm:^1.12.1":
+"@webassemblyjs/wasm-edit@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/wasm-edit@npm:1.14.1"
   dependencies:
@@ -638,7 +638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webassemblyjs/wasm-parser@npm:1.14.1, @webassemblyjs/wasm-parser@npm:^1.12.1":
+"@webassemblyjs/wasm-parser@npm:1.14.1, @webassemblyjs/wasm-parser@npm:^1.14.1":
   version: 1.14.1
   resolution: "@webassemblyjs/wasm-parser@npm:1.14.1"
   dependencies:
@@ -1066,6 +1066,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"companion-module-roland-v8hd@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "companion-module-roland-v8hd@workspace:."
+  dependencies:
+    "@companion-module/base": "npm:^1.11.0"
+    "@companion-module/tools": "npm:^2.1.1"
+    "@julusian/midi": "npm:^3.6.1"
+    eslint: "npm:~9.14.0"
+    husky: "npm:^9.1.6"
+    lint-staged: "npm:^15.2.10"
+    prettier: "npm:^3.3.3"
+    rimraf: "npm:^6.0.1"
+    typescript: "npm:^5.6.3"
+    typescript-eslint: "npm:^8.14.0"
+  languageName: unknown
+  linkType: soft
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -1250,9 +1267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^17.10.2":
-  version: 17.13.2
-  resolution: "eslint-plugin-n@npm:17.13.2"
+"eslint-plugin-n@npm:^17.15.0":
+  version: 17.15.1
+  resolution: "eslint-plugin-n@npm:17.15.1"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.1"
     enhanced-resolve: "npm:^5.17.1"
@@ -1264,7 +1281,7 @@ __metadata:
     semver: "npm:^7.6.3"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10c0/3ecb7b4e1537b23af4eb270748a961f43010cda5a1dbd0e9e52f5c4e857f0ecc82d44c3d32ef76905e60f1bd46e6206d3df6ce430deae39cb075dcc2681cd1a3
+  checksum: 10c0/0b52ffed0b80d74977e1157b4c0cc79efcdf81ea35d2997bdbf02f3d41f428f52ccb7fb3a08cf02e6fed8ae1bf4708d69fdf496e75b8b2bd3e671029d89ccc6c
   languageName: node
   linkType: hard
 
@@ -1640,23 +1657,6 @@ __metadata:
   checksum: 10c0/d8680ee1e5fcd4c197e4ac33b2b4dce03c71f4d91717292785703db200f5c21f977c568d28061226f9b5900cbcd2c84463646134fd5337e7925e0942bc3f46d5
   languageName: node
   linkType: hard
-
-"generic-midi@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "generic-midi@workspace:."
-  dependencies:
-    "@companion-module/base": "npm:^1.11.0"
-    "@companion-module/tools": "npm:^2.1.0"
-    "@julusian/midi": "npm:^3.6.1"
-    eslint: "npm:~9.14.0"
-    husky: "npm:^9.1.6"
-    lint-staged: "npm:^15.2.10"
-    prettier: "npm:^3.3.3"
-    rimraf: "npm:^6.0.1"
-    typescript: "npm:^5.6.3"
-    typescript-eslint: "npm:^8.14.0"
-  languageName: unknown
-  linkType: soft
 
 "get-caller-file@npm:^2.0.5":
   version: 2.0.5
@@ -3524,15 +3524,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.94.0":
-  version: 5.96.1
-  resolution: "webpack@npm:5.96.1"
+"webpack@npm:^5.97.1":
+  version: 5.97.1
+  resolution: "webpack@npm:5.97.1"
   dependencies:
     "@types/eslint-scope": "npm:^3.7.7"
     "@types/estree": "npm:^1.0.6"
-    "@webassemblyjs/ast": "npm:^1.12.1"
-    "@webassemblyjs/wasm-edit": "npm:^1.12.1"
-    "@webassemblyjs/wasm-parser": "npm:^1.12.1"
+    "@webassemblyjs/ast": "npm:^1.14.1"
+    "@webassemblyjs/wasm-edit": "npm:^1.14.1"
+    "@webassemblyjs/wasm-parser": "npm:^1.14.1"
     acorn: "npm:^8.14.0"
     browserslist: "npm:^4.24.0"
     chrome-trace-event: "npm:^1.0.2"
@@ -3556,7 +3556,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 10c0/ae6052fde9a546f79f14987b65823ba4024c6642a8489339ecfee7a351dff93325842aad453295bbdc6b65fb1690e4ef07529db63aa84ece55c7869e991a0039
+  checksum: 10c0/a12d3dc882ca582075f2c4bd88840be8307427245c90a8a0e0b372d73560df13fcf25a61625c9e7edc964981d16b5a8323640562eb48347cf9dd2f8bd1b39d35
   languageName: node
   linkType: hard
 
@@ -3695,9 +3695,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zx@npm:^8.1.6":
-  version: 8.2.2
-  resolution: "zx@npm:8.2.2"
+"zx@npm:^8.2.4":
+  version: 8.3.0
+  resolution: "zx@npm:8.3.0"
   dependencies:
     "@types/fs-extra": "npm:>=11"
     "@types/node": "npm:>=20"
@@ -3708,6 +3708,6 @@ __metadata:
       optional: true
   bin:
     zx: build/cli.js
-  checksum: 10c0/68c2fd54cd10e2c3b32ae7db62cc0004808b7ece6aad2c87838e354174bd9868918cc1a6e067d6a7647cfb1180253e6a362f8b57aabb4b2895c8f6c0e92a62cd
+  checksum: 10c0/ee40ad833fb5fd58e578be3d4fc811c268a3ad3f4063902c46497d329bf9fc631b3545fb56e98416c9b4cae4e9a6e9a02a99425e43691f3b42ade9e4a8399646
   languageName: node
   linkType: hard
